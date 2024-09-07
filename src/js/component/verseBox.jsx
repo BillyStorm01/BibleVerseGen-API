@@ -8,8 +8,6 @@ const VerseBox = () => {
         reference: "",
         version: ""
     });
-    const [loading, setLoading] = useState(null)
-
     useEffect(() => {
         fetchVerse()
     }, [])
@@ -37,9 +35,9 @@ const VerseBox = () => {
     return (
         <div>
             <div className="container">
-                <div><p>{verse.text}</p></div>
-                <div><p>{verse.reference}</p></div>
-                <div><p>{verse.version}</p></div>
+                <div className="v-text"><p>{verse.text}</p></div>
+                <div className="v-ref"><p>{verse.reference}</p></div>
+                <div className="v-version"><p>{verse.version}</p></div>
             </div>
             <div className="btn-container">
                 <button onClick={fetchVerse}>Get Verse</button>

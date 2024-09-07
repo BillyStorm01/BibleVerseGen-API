@@ -1,0 +1,11 @@
+.nav-bar{
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar > p{
+    font-size: 40px;
+    font-weight: 600;
+}

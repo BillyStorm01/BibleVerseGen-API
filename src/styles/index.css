@@ -1,3 +1,9 @@
-/* 
-    General Styles
-*/
+html{
+    overflow: hidden;
+}
+
+body{
+    border: 1px solid red;
+    height: 100%;
+}
+

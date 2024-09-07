@@ -1,0 +1,12 @@
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verse-btn{
+    font-size: 1.5rem;
+    border-radius: 16px;
+    width: 200px;
+    margin-top: 10px;
+}

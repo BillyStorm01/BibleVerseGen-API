@@ -33,11 +33,13 @@ const VerseBox = () => {
     };
 
     return (
-        <div>
-            <div className="container">
+        <div className="outterContainer">
+            <div className="inner-container">
                 <div className="v-text"><p>{verse.text}</p></div>
-                <div className="v-ref"><p>{verse.reference}</p></div>
-                <div className="v-version"><p>{verse.version}</p></div>
+                <div className="details">
+                    <div className="v-ref"><p>{verse.reference}</p></div>
+                    <div className="v-version"><p>{verse.version}</p></div>
+                </div>
             </div>
             <div className="btn-container">
                 <button onClick={fetchVerse}>Get Verse</button>

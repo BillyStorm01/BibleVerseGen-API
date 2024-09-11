@@ -61,7 +61,7 @@ const VerseBox = () => {
                     </div>
                 </div>
                 <div className="btn-container">
-                    <button onClick={fetchVerse}>Get Verse</button>
+                    <button className="genBtn" onClick={fetchVerse}>Get Verse</button>
                 </div>
             </div>
         </div>

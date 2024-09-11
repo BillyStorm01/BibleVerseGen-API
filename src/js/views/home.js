@@ -4,7 +4,7 @@ import VerseBox from "../component/verseBox.jsx";
 export const Home = () => (
   <div>
     <VerseBox />
-    <ul className="circles">
+    {/* <ul className="circles">
       <li></li>
       <li></li>
       <li></li>
@@ -15,6 +15,6 @@ export const Home = () => (
       <li></li>
       <li></li>
       <li></li>
-    </ul>
+    </ul> */}
   </div>
 );

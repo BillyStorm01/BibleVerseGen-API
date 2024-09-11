@@ -36,10 +36,28 @@ const VerseBox = () => {
         <div className="wrapper">
             <div className="outterContainer">
                 <div className="inner-container">
-                    <div className="v-text"><p>{verse.text}</p></div>
+                    <div className="v-text">
+                        <p>{verse.text}</p>
+                    </div>
                     <div className="details">
-                        <div className="v-ref"><p>{verse.reference}</p></div>
-                        <div className="v-version"><p>{verse.version}</p></div>
+                        <div className="v-ref">
+                            <p>{verse.reference}</p>
+                        </div>
+                        <div className="v-version">
+                            <p>{verse.version}</p>
+                        </div>
+                        <ul className="circles">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                     </div>
                 </div>
                 <div className="btn-container">
@@ -47,6 +65,7 @@ const VerseBox = () => {
                 </div>
             </div>
         </div>
+
     );
 }
 

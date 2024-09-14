@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    border: 1px solid red;
     height: 100%;
 }
 
@@ -55,4 +54,18 @@ to {background-position: -100px 0px;background-size:2750px;}
   color:white;
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
+}
+
+footer {
+  background-color: #0a1f3a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+footer > p {
+  margin: 0px;
+  padding: 10px 0px;
 }

@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(90vh - var(--navbar-height));
+  height: calc(100vh - var(--navbar-height));
 }
 
 :root {
@@ -39,15 +39,15 @@ body {
   z-index: 1000;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .v-text {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .v-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .inner-container {
-  background: #0a1f3aef;
+  background: #0a1f3a;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   width: 80%;
   height: 100vh;
